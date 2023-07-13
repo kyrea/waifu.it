@@ -20,3 +20,12 @@ client.getWaifu()
   .catch((error) => {
     console.error('Error retrieving waifu:', error);
   });
+
+// Test the getQuote() method
+client.getQuote()
+  .then((quote) => {
+    console.log('Quote:', quote);
+  })
+  .catch((error) => {
+    console.error('Error retrieving Quote:', error);
+  });

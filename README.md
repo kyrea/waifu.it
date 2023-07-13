@@ -42,5 +42,7 @@ api.getFact().then((res) => console.log(res));
 | :-----------: | ---------------------------- |
 |    getFact    | Generate random anime facts. |
 |    getWaifu   | Generate random anime waifu. |
+|    getQuote   | Generate anime quote.        |
+
 
 

@@ -1,3 +1,5 @@
+import EventEmitter from "eventemitter3";
+
 declare module './package.json' {
   interface PackageJson {
     baseurl: string;
@@ -12,6 +14,7 @@ declare class Client extends EventEmitter {
 
   getFact(): Promise<Fact>;
   getWaifu(): Promise<Waifu>;
+  getQuote(): Promise<Quote>;
 }
 
 interface Fact {
@@ -38,6 +41,13 @@ interface Waifu {
     upvote: number;
     downvote: number;
   };
+}
+
+interface Quote {
+  id: number;
+  quote: string;
+  anime: string;
+  author: string
 }
 
 
