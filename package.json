@@ -7,7 +7,7 @@
   "scripts": {
     "test": "node __tests__/endpoints.js"
   },
-  "baseurl": "https://waifu.it/api",
+  "baseurl": "https://waifu.it/api/v4",
   "repository": "git+ssh://git@github.com/kyrea/waifu.it.git",
   "keywords": [
     "anime",
